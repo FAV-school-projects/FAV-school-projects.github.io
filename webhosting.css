@@ -1,0 +1,48 @@
+body{
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+a{
+    color: darkorchid;
+}
+a:hover{
+color:rebeccapurple;
+}
+h1{
+    color: mediumpurple;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+}
+h2{
+    color: darkorchid;
+    text-align: left;
+    font-weight: 700;
+    font-size: 28px;
+    padding-left: 80px;
+}
+p{
+    color: black;
+    text-align: left;
+    font-weight: 500;
+    font-size: 20px;
+}
+ul{
+    color: black;
+    text-align: left;
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 130px;
+}
+div#hover{
+    li{
+        color: whitesmoke;
+        list-style-type: none;
+    }
+}
+div#hover :hover{
+    li{
+        color: black;
+        list-style-type: none;
+    }
+}
