@@ -1,12 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'">
+    <title>CSS</title>
+    <style type="text/css" media="screen">
 body{
     font-family: sans-serif;
     background-color: whitesmoke;
 }
 a{
     color: darkorchid;
+    text-decoration: none;
 }
 a:hover{
 color:rebeccapurple;
+text-decoration: underline;
 }
 h1{
     color: mediumpurple;
@@ -46,3 +55,8 @@ div#hover :hover{
         list-style-type: none;
     }
 }
+
+
+    </style>
+  </head>
+  </html>
